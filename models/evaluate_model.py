@@ -9,7 +9,7 @@ from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 data_path = "data/processed_data"
 models_path = "models"
 metrics_path = "metrics"
-output_pred_path = "data/predictions.csv"
+output_pred_path = "data/processed_data/predictions.csv"
 output_fig_path = os.path.join(metrics_path, "resultats.png")
 os.makedirs(metrics_path, exist_ok=True)
 

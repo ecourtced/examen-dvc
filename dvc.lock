@@ -109,14 +109,14 @@ stages:
       size: 6456
     - path: models/evaluate_model.py
       hash: md5
-      md5: 07151f700eea22001d43077bfbea9284
-      size: 1832
+      md5: cff34b6cec8bc75ff5f5584ad69ae6c0
+      size: 1847
     - path: models/modele_entraine.pkl
       hash: md5
       md5: a7a17c717eb06d04e3a883dc71505bf8
       size: 7754719
     outs:
-    - path: data/predictions.csv
+    - path: data/processed_data/predictions.csv
       hash: md5
       md5: 0d95a1dc43726ebcf04ff8a1246ddfe9
       size: 13213

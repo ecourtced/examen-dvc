@@ -1,2 +1,19 @@
-/env
+tmp/
+/env/
+
+__pycache__/
+*.log
+*.tmp
+
+data/raw_data/*.csv
+data/processed_data/*.csv
+!data/processed_data/.gitkeep
+data/processed_data/*.dvc
+
+models/meilleurs_parametres.pkl
+models/modele_entraine.pkl
+metrics/scores.json
+metrics/resultats.png
+
+
 
